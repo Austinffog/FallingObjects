@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1083634027345805031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083634027345805034}
+  - component: {fileID: 1083634027345805035}
+  - component: {fileID: 1083634027345805028}
+  - component: {fileID: 1083634027345805029}
+  - component: {fileID: 1083634027345805030}
+  m_Layer: 0
+  m_Name: SpawnerCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1083634027345805034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083634027345805031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.89, y: 0.5, z: -1.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1083634027345805035
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083634027345805031}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1083634027345805028
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083634027345805031}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cad4177a11237e4791b3f6a538c26e5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1083634027345805029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083634027345805031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1083634027345805030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083634027345805031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b782b986351a584986387dd2a44028e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPowers:
+  - {fileID: 3127698780781724797, guid: 824271e9695308a4a82818154428b827, type: 3}
+  - {fileID: 4984357597887521909, guid: 313cc12e0406f7b419b37098a01af69d, type: 3}
+  - {fileID: 8491483208678730249, guid: b4ac4e984379ec04da50a83b05fd832c, type: 3}
+  - {fileID: 7975042497460792829, guid: dbbe20c6f3ce9234fb55667c4312edab, type: 3}
+  - {fileID: 3958634845793914530, guid: af527e9efdba31e42bac4f7404690c35, type: 3}
+  - {fileID: 3057250843926721208, guid: f1a561b9a80e92744aa3cf0f1d3f91f4, type: 3}
+  - {fileID: 1926270334755679817, guid: e2e93608b547777409ce86cea4ffb518, type: 3}
+  - {fileID: 8220461063069892191, guid: e75de58bc43e6894082b11f79ab78011, type: 3}
+  - {fileID: 409637175040677030, guid: 989f6072e46aaee46863b95933f87836, type: 3}
+  - {fileID: 6073967900195096441, guid: de7a23d6a382cdd46a5bacf3b27688c3, type: 3}
+  spawnValues: {x: 5, y: 0.5, z: 5}
+  spawnWait: 1
+  spawnMostWait: 5
+  spawnLeastWait: 0
+  startWait: 1
